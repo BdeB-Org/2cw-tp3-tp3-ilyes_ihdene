@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C89234F-5B84-5F3E-F609-89AB04573659" name="Volumes">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:44:21 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FB542B4D-9770-FAC1-35A2-C70875293B72">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:44:28 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volume total" id="8FB910BF-EE80-66DE-BC68-8A9FA2F882F3">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:44:40 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="C3BC4BD1-BB83-8007-956C-6C5568228BFA">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 01:18:24 UTC</createdTime>
+<generatorID>14723970-CC21-F3EB-32A2-1BEA28F7C153</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<referedAttribute>6DF90B9C-FC9B-E8FF-3C83-7176C2B40FF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A442B80-4E06-E138-91BB-8DB51F4C6218" name="Volumes PK">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:44:38 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB542B4D-9770-FAC1-35A2-C70875293B72</attributeRef>
+<attributeRef>C3BC4BD1-BB83-8007-956C-6C5568228BFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
