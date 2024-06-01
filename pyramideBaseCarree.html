@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pyramideBaseCarree.css" />
+    <title>Cube - Calculateur d'aires et de volumes de solides</title>
+</head>
+<body>
+    <p>Veuillez indiquer la mesure d'un côté de la base, de l'apothème de la pyramide et de la hauteur de la pyramide.</p>
+    <form action="javascript:aireEtVolumePyramideBaseCarree()" method="post" id="MonFormulaire">
+        <label for="côté">Côté</label>
+        <input type="text" name="côté" id="cote" required/>
+        <label for="apotheme">Apothème</label>
+        <input type="text" name="apotheme" id="apotheme" required/>
+        <label for="hauteur">Hauteur</label>
+        <input type="text" name="hauteur" id="hauteur" required/>
+        <label for="aire">Aire</label>
+        <input type="text" name="aire" id="aire"/>
+        <label for="volume">Volume</label>
+        <input type="text" name="volume" id="volume" />
+        <input type="submit" value="Calculer" id="submit"/>
+    </form>
+    <script src="pyramideBaseCarree.js" defer></script>
+    <a href="index.html">Retour</a>
+</body>
+</html>
