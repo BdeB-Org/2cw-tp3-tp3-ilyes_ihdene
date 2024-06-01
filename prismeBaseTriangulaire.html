@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="prismeBaseTriangulaire.css" />
+    <title>Prisme à base triangulaire - Calculateur d'aires et de volumes de solides</title>
+</head>
+<body>
+    <p>Veuillez indiquer la mesure de la base de la base, de la hauteur de la base et de la hauteur du prisme.</p>
+    <form action="javascript:aireEtVolumePrismeBaseTriangulaire()" method="post" id="MonFormulaire">
+        <label for="base">Base</label>
+        <input type="text" name="base" id="base" required/>
+        <label for="hauteurB">Hauteur de la base</label>
+        <input type="text" name="hauteurB" id="hauteurB" required/>
+        <label for="hauteur">Hauteur du prisme</label>
+        <input type="text" name="hauteur" id="hauteur" required/>
+        <label for="aire">Aire</label>
+        <input type="text" name="aire" id="aire"/>
+        <label for="volume">Volume</label>
+        <input type="text" name="volume" id="volume" />
+        <input type="submit" value="Calculer" id="submit"/>
+    </form>
+    <script src="prismeBaseTriangulaire.js" defer></script>
+    <a href="index.html">Retour</a>
+</body>
+</html>
