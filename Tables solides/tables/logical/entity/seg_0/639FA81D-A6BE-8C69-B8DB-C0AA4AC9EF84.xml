@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="639FA81D-A6BE-8C69-B8DB-C0AA4AC9EF84" name="Aires">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:41:47 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="17157B35-0911-0861-2D85-5A480B991ED8">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:42:36 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aire latérale" id="3956B9DB-3A85-F4CF-F942-5820893C0149">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:43:07 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aire bases" id="1C0E0520-3355-AFF6-0509-7F30FC7D36BD">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:43:32 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aire totale" id="5FD92DF7-4063-E2BB-141C-7A73059928C7">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:43:53 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="4D93668A-CE13-4DFA-E102-C0A0F7201BB1">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 01:21:10 UTC</createdTime>
+<generatorID>290C855D-1956-0033-F79B-A2AADB7FA3F4</generatorID>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<referedAttribute>6DF90B9C-FC9B-E8FF-3C83-7176C2B40FF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEDFDB1B-3939-C3AA-2451-BE96EA027FDC" name="Aires PK">
+<createdBy>Ilyes</createdBy>
+<createdTime>2024-05-31 00:42:46 UTC</createdTime>
+<ownerDesignName>tables</ownerDesignName>
+<engineerTo>
+<item key="214E191F-FC2C-9C3F-74F5-07E436DCB211" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17157B35-0911-0861-2D85-5A480B991ED8</attributeRef>
+<attributeRef>4D93668A-CE13-4DFA-E102-C0A0F7201BB1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
